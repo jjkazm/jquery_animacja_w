@@ -18,14 +18,17 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
+    left:0;
+    
 }
 
 .single-slide {
-    position: absolute;
+   position:absolute;
     top: 0;
     bottom: 0;
+    width: 100%;
+    left:100%;
     overflow:hidden;
-    width: 0;
 }
 
 img {
@@ -42,8 +45,10 @@ img {
     margin: 0 auto;
     text-align: center;
     z-index: 5;
-    color: red;
+    color: white;
     font-size: 4em;
+    opacity: 0;
+
 }
 
 div.slider-arrows {
